@@ -5,16 +5,18 @@ import Button from './components/button';
 
 
 function App() {
+  let fooditems = ['dal', 'vegetables', 'milk', 'egg'];
   return (
     <>
-      <form action="" className='bio'>
-        <center>
-         <input type="text" placeholder='Enter username' /> <br /><br /> <br />
-         <input type="password" placeholder='Enter password'/> <br /><br /><br />
-         <Button />
-        </center>
-        
-      </form>
+      <center>
+        <h1>healty Foods</h1>
+        <ul className="list-group">
+          {fooditems.map((item) => (
+            <li className='list-group-item'>{item}</li>
+          ))}
+        </ul>
+
+      </center>
     </>
   )
 }
