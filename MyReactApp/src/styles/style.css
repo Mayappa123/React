@@ -1,0 +1,19 @@
+#button {
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+body {
+    margin-left: 20px;
+}
+
+.bio {
+    border: 1.5px solid black;
+    padding: 30px 20px 10px 20px;
+    width: 260px;
+    align-items: center;
+    margin-top: 20px;
+    background: linear-gradient(red, orange, yellow, blue);
+    border-radius: 10px;
+    height: 300px;
+}
