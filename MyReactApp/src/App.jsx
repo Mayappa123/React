@@ -1,14 +1,15 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/style.css'
-import Button from './components/button';
+import Navbar from './components/navbar';
 
 
 function App() {
   let fooditems = ['dal', 'vegetables', 'milk', 'egg'];
   return (
     <>
-      <center>
+      <center><br /><br />
+        <Navbar /> <br /><br />
         <h1>healty Foods</h1>
         <ul className="list-group">
           {fooditems.map((item) => (
