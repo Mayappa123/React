@@ -1,8 +1,8 @@
-import "../styles/login.css";
+import "../styles/signup.css";
 
 export default function Login() {
   return (
-    <form action="" className="mx-5 my-5 login custom-form">
+    <form action="" className="mx-5 my-5 signup custom-form">
       <div className="mb-3">
         <label htmlFor="username" className="form-label">
           Username
@@ -29,7 +29,7 @@ export default function Login() {
         type="submit"
         className="btn btn-primary d-block mx-auto loginbtn mt-30"
       >
-        Login
+        Sign Up
       </button>
       <br />
     </form>

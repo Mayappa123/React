@@ -1,0 +1,28 @@
+.custom-form {
+  max-width: 280px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url("../assets/opaque.png");
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px);
+}
+
+.custom-form label {
+  color: #fff;
+}
+
+.custom-form input,
+.custom-form button {
+  margin-bottom: 15px;
+}
+
+label {
+  color: black;
+}
+
+.loginbtn {
+  width: 100px;
+}
