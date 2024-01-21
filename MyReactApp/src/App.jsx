@@ -12,11 +12,13 @@ function App() {
         <Navbar /> <br /><br />
         <h1>healty Foods</h1>
         <ul className="list-group">
-          {fooditems.map((item) => (
-            <li className='list-group-item'>{item}</li>
-          ))}
+          {
+            fooditems.map((item) => (
+              <li className='list-group-item'>{item}</li>
+              )
+            )
+          }
         </ul>
-
       </center>
     </>
   )
