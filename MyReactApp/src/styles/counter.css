@@ -1,0 +1,42 @@
+.container {
+  height: 70px;
+  width: 400px;
+  border: 2px solid black;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.display {
+  height: 40px;
+  width: 120px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  box-shadow: 0 2px 3px blue; 
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column; 
+    width: 80%; 
+    margin: 50px auto;
+    height: 150px;
+  }
+
+  .btn {
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+  }
+}

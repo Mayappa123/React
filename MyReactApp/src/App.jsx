@@ -1,13 +1,13 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
-import './styles/style.css'
-import Login from './components/login';
+import './styles/counter.css'
+import Counter from './components/counter';
 
 
 function App() {
   return (
     <>
-      <Login />
+      <Counter />
     </>
   )
 }
