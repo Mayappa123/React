@@ -1,21 +1,15 @@
-
-import 'bootstrap/dist/css/bootstrap.css';
-import './styles/counter.css'
-import Counter from './components/counter';
-import Name from "./components/students";
-import Age from "./components/filterArray";
-
-
+import "bootstrap/dist/css/bootstrap.css";
+import Props from "./components/props";
+import "./styles/props.css";
 
 
 function App() {
+  
   return (
     <>
-      <Counter /><br /><br />
-      <Name />
-      <Age />
+      <Props name='maya' message='How are you?' />
     </>
-  )
+  );
 }
 
 export default App;
