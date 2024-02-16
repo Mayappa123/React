@@ -1,0 +1,72 @@
+[
+    {
+        "firstname": "Dune",
+        "lastname": "Herbert",
+        "email": "dune@gmail.com",
+        "age": "1965",
+        "created at": "2020-01-01"
+    },
+    {
+        "firstname": "Foundation",
+        "lastname": "Asimov",
+        "email": "foundation@gmail.com",
+        "age": "1951",
+        "created at": "2020-01-02"
+    },
+    {
+        "firstname": "Ender's Game",
+        "lastname": "Card",
+        "email": "endersgame@gmail.com",
+        "age": "1985",
+        "created at": "2020-01-03"
+    },
+    {
+        "firstname": "1984",
+        "lastname": "Orwell",
+        "email": "1984@gmail.com",
+        "age": "1949",
+        "created at": "2020-01-04"
+    },
+    {
+        "firstname": "Brave New World",
+        "lastname": "Huxley",
+        "email": "bravenewworld@gmail.com",
+        "age": "1932",
+        "created at": "2020-01-05"
+    },
+    {
+        "firstname": "The Hitchhiker's Guide to the Galaxy",
+        "lastname": "Adams",
+        "email": "hitchhikersguide@gmail.com",
+        "age": "1979",
+        "created at": "2020-01-06"
+    },
+    {
+        "firstname": "Neuromancer",
+        "lastname": "Gibson",
+        "email": "neuromancer@gmail.com",
+        "age": "1984",
+        "created at": "2020-01-07"
+    },
+    {
+        "firstname": "Snow Crash",
+        "lastname": "Stephenson",
+        "email": "snowcrash@gmail.com",
+        "age": "1992",
+        "created at": "2020-01-08"
+    },
+    {
+        "firstname": "The Martian",
+        "lastname": "Weir",
+        "email": "themartian@gmail.com",
+        "age": "2011",
+        "created at": "2020-01-09"
+    },
+    {
+        "firstname": "Ready Player One",
+        "lastname": "Cline",
+        "email": "readyplayerone@gmail.com",
+        "age": "2011",
+        "created at": "2020-01-10"
+    }
+]

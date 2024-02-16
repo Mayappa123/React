@@ -1,13 +1,18 @@
 import "bootstrap/dist/css/bootstrap.css";
-import Props from "./components/props";
-import "./styles/props.css";
-
+import { Firstname, Lastname, Fullname, Addition, MyButton } from "./components/ExportMany";
+import { AddTwoNumbers } from "./components/addForm";
 
 function App() {
-  
+  const a = 10;
+  const b = 10;
   return (
     <>
-      <Props name='maya' message='How are you?' />
+      <Firstname />
+      <Lastname />
+      <Fullname />
+      <Addition a={a} b={b}/>
+      <AddTwoNumbers />
+      <MyButton />
     </>
   );
 }
