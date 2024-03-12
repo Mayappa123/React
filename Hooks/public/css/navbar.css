@@ -1,0 +1,26 @@
+
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}

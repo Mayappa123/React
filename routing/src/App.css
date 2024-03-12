@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: larger;
+}
+
+ul li {
+  list-style-type: none;
+  color: white;
+  font: bold;
+}
+
+ul li:active {
+  background-color: white;
+  border: 2px solid black;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  
+}

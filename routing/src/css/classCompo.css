@@ -1,0 +1,19 @@
+#mydiv {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(183, 28, 183);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 40%;
+
+}
+
+#mydiv:hover {
+    border: 5px solid red;
+    transition: transform 2s;
+    background-color: chartreuse;
+    transform: translateX(1.2);
+}
+
+
+
