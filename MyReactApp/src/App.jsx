@@ -1,5 +1,11 @@
 import "bootstrap/dist/css/bootstrap.css";
-import { Firstname, Lastname, Fullname, Addition, MyButton } from "./components/ExportMany";
+import {
+  Firstname,
+  Lastname,
+  Fullname,
+  Addition,
+  MyButton,
+} from "./components/ExportMany";
 import { AddTwoNumbers } from "./components/addForm";
 
 function App() {
@@ -10,7 +16,7 @@ function App() {
       <Firstname />
       <Lastname />
       <Fullname />
-      <Addition a={a} b={b}/>
+      <Addition a={a} b={b} />
       <AddTwoNumbers />
       <MyButton />
     </>
