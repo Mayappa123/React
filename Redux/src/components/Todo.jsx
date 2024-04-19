@@ -11,7 +11,7 @@ export default function Todo() {
     console.log("deleted...", id);
     dispatch(deleteTodo(id));
   };
-  
+
   return (
     <>
       <AddForm />
