@@ -5,10 +5,13 @@ import { deleteTodo } from "../features/todo/todoSlice";
 export default function Todo() {
   const todos = useSelector((state) => state.todos);
   console.log(todos);
+  const dispatch = useDispatch();
 
-  const deleteHandler = () => {
+  const deleteHandler = (id) => {
     console.log("deleted...", id);
+    dispatch(deleteTodo(id));
   };
+  
   return (
     <>
       <AddForm />
