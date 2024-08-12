@@ -1,17 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import App from './App'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 
 //pages
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Contact from "./pages/Contact"
-import Products from "./pages/Products"
-import ProductDetails from './pages/ProductDetails'
-import Error from './pages/error'
-import LifeCycle from './pages/lifeCycle'
-import AxiosData from './pages/axios'
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Products from "./pages/Products";
+import ProductDetails from "./pages/ProductDetails";
+import Error from "./pages/error";
+import LifeCycle from "./pages/lifeCycle";
+import AxiosData from "./pages/axios";
 
 //components
 import ContactUs from "./components/ContactUs";
@@ -24,7 +24,8 @@ import "./css/ClassCompo.css";
 import {
   createBrowserRouter,
   createRoutesFromElements,
-  RouterProvider, Route
+  RouterProvider,
+  Route,
 } from "react-router-dom";
 
 const router = createBrowserRouter(
@@ -54,7 +55,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-      <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
-
