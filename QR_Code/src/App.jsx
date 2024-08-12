@@ -27,7 +27,8 @@ function App() {
             value={text}
             size={200}
             bgColor="white"
-            fgColor="black" level="H"
+            fgColor="black"
+            level="H"
             style={{ textAlign: "center" }}
           />
         </div>
