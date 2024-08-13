@@ -1,0 +1,10 @@
+.item {
+  list-style-type: none;
+}
+h2 {
+  margin-bottom: 0px;
+}
+.item::selection {
+  background-color: black;
+  color: white;
+}
