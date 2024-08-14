@@ -8,6 +8,7 @@ import Product from "./components/Product";
 import Student from "./components/student";
 import ItemList from "./components/ItemList";
 import ParisOlympic from "./components/ParisOlympics";
+import Food from "./components/food";
 
 function App() {
   let fruit = ["apple", "banana", "cherry", "guava", "grapes"];
@@ -33,6 +34,10 @@ function App() {
       <div>
         <h3>Fruit Item</h3>
         <ItemList items={fruit} /> {/* passing array as props.. */}
+      </div>
+      <div>
+        <h3>Food Items</h3>
+        <Food /> {/* conditional redering */}
       </div>
       <div>
         <h3>Paris Olympic medals Tally</h3>
