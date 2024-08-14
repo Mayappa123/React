@@ -13,7 +13,9 @@ const ParisOlympic = ({ medals }) => {
         <p>Data not available.</p>
       )}
     </div>
+    
   );
 };
 
 export default ParisOlympic;
+

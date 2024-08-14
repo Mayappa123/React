@@ -6,7 +6,7 @@ let products = [
   { id: 2, name: "mobile", price: 12000 },
   { id: 3, name: "earphone", price: 1000 },
   { id: 4, name: "shoes", price: 600 },
-  { id: 5, name: "shirt", price: 200 }, 
+  { id: 5, name: "shirt", price: 200 },
 ];
 
 const Product = () => {
@@ -18,8 +18,11 @@ const Product = () => {
             <h4>{p.name}</h4>
             <p>Price: {p.price}</p>
           </div>
+          
         ))}
+        
       </div>
+      
     </>
   );
 };

@@ -4,7 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Toast() {
-      const [text, setText] = useState("Hello World");
+  const [text, setText] = useState("Hello World");
 
   const notify = () => {
     console.log("Notify triggered!");
