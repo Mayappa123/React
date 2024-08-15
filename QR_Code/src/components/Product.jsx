@@ -18,11 +18,8 @@ const Product = () => {
             <h4>{p.name}</h4>
             <p>Price: {p.price}</p>
           </div>
-          
         ))}
-        
       </div>
-      
     </>
   );
 };
