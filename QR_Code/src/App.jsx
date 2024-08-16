@@ -11,6 +11,7 @@ import ItemList from "./components/ItemList";
 import ParisOlympic from "./components/ParisOlympics";
 import Food from "./components/food";
 import College from "./components/college";
+import Component1 from "./components/context";
 
 function App() {
   let fruit = ["apple", "banana", "cherry", "guava", "grapes"];
@@ -48,6 +49,9 @@ function App() {
       </div>
       <div>
         <College college={college} />
+      </div>
+      <div>
+        <Component1 />
       </div>
     </>
   );
