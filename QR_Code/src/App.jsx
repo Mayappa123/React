@@ -12,6 +12,7 @@ import ParisOlympic from "./components/ParisOlympics";
 import Food from "./components/food";
 import College from "./components/college";
 import Component1 from "./components/context";
+import MyApp from "./components/useRef";
 
 function App() {
   let fruit = ["apple", "banana", "cherry", "guava", "grapes"];
@@ -52,6 +53,9 @@ function App() {
       </div>
       <div>
         <Component1 />
+      </div>
+      <div>
+        <MyApp />
       </div>
     </>
   );
