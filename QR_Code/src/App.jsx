@@ -52,10 +52,10 @@ function App() {
         <College college={college} />
       </div>
       <div>
-        <Component1 />
+        <Component1 /> {/* useContext Hook*/}
       </div>
       <div>
-        <MyApp />
+        <MyApp /> {/* useRef Hook*/}
       </div>
     </>
   );

@@ -7,7 +7,7 @@ export default function Component1() {
 
   return (
     <UserContext.Provider value={user}>
-      <h1>{`Hello ${user}!`}</h1>
+      <h3>{`Hello ${user}!`}</h3>
       <Component2 />
     </UserContext.Provider>
   );
@@ -16,7 +16,7 @@ export default function Component1() {
 function Component2() {
   return (
     <>
-      <h1>Component 2</h1>
+      <h3>Component 2</h3>
       <Component3 />
     </>
   );
@@ -25,7 +25,7 @@ function Component2() {
 function Component3() {
   return (
     <>
-      <h1>Component 3</h1>
+      <h3>Component 3</h3>
       <Component4 />
     </>
   );
@@ -34,7 +34,7 @@ function Component3() {
 function Component4() {
   return (
     <>
-      <h1>Component 4</h1>
+      <h3>Component 4</h3>
       <Component5 />
     </>
   );
@@ -45,7 +45,7 @@ function Component5() {
 
   return (
     <>
-      <h1>Component 5</h1>
+      <h3>Component 5</h3>
       <h2>{`Hello ${user} again!`}</h2>
     </>
   );
