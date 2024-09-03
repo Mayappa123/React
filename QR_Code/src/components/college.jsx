@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function College({ college }) {
   return (
     <>
