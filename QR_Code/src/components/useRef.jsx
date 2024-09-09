@@ -16,7 +16,7 @@ export default function MyApp() {
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
       />
-      <p>Render Count: {count.current}</p>
+      <b>Render Count: {count.current}</b>
     </>
   );
 }
