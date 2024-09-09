@@ -22,7 +22,6 @@ function Toast() {
           <label htmlFor="text">enter Text </label>
           <input
             type="text"
-            country=""
             id="text"
             onChange={(e) => {
               setText(e.target.value);

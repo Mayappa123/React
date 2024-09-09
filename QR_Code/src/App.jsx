@@ -13,6 +13,7 @@ import Food from "./components/food";
 import College from "./components/college";
 import Component1 from "./components/context";
 import MyApp from "./components/useRef";
+import MyComponent from "./components/LayoutEffect";
 
 function App() {
   let fruit = ["apple", "banana", "cherry", "guava", "grapes"];
@@ -56,6 +57,9 @@ function App() {
       </div>
       <div>
         <MyApp /> {/* useRef Hook*/}
+      </div>
+      <div>
+        <MyComponent />
       </div>
     </>
   );
